@@ -1,0 +1,62 @@
+body {
+  color: ivory;
+  text-align: center;
+  font-size: 150%;
+  background-image: url('https://media1.giphy.com/media/1lRrsraIsEYRW/giphy.gif');
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-color: forestgreen;
+    
+  font: "Century Gothic", Futura, sans-serif;
+  margin: 200px;
+}
+
+ol, ul {
+  text-align: center;
+  padding-left: 200px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: goldenrod;
+  border: 1px solid #999;
+  float: left;
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 100px;
+  height: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 100;
+  text-align: center;
+  width: 100px;
+}
+
+
+
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 100px;
+}
